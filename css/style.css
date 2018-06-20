@@ -1,0 +1,155 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+ 
+}
+/*GLOBAL STYLES*/
+
+.container{
+ max-width: 500px;
+ margin: auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+/*HEADER*/
+header{
+  color: #ffffff;
+  background: #413faa;
+  padding-top:20px;
+  min-height: 10px;
+  line-height: 1.5em;
+}
+
+/* header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: right;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+} */
+
+header #branding {
+  float: left;
+  
+}
+#branding img {
+  margin-top: 50ox;
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+header #branding h1 {
+  /* margin: 0; */
+}
+ 
+header nav{
+  float: right;  
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+header .highlight, header .current a {
+  color: #ff0000;
+  font-weight: bold;
+ }
+
+header .highlight {
+   font-size: 30px;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* SHOWCASE */
+
+#showcase {
+  min-height: 600px;
+  color: #000080;
+  background: url("../img/shutterstock\ spirituality.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* #showcase h1 { 
+  
+  font-size: 55px;
+  margin-bottom: 10px;
+} */
+
+#showcase p {
+  font-size: 20px;
+  color: #000000;
+}
+
+/* NEWSLETTER */
+
+#newsletter {
+  padding: 5px;
+  color: #ffffff;
+  background: url('../img/blurry-blue.jpg') repeat;
+}
+
+#newsletter h2 {
+  float: left;
+  color: #afaafa;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 1px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+ /* BOXES */
+
+ #boxes {
+  margin-top: 5px;
+}
+
+#boxes .box {
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box img {
+  width: 90px;
+}
+
+/* FOOTER */
+
+footer{
+ padding: 15px;
+ margin-top: 20px;
+ color: #ffffff;
+ background: #c0c0c0;
+ text-align: center;
+}
+.logo_c {
+  text-align: left;
+}
